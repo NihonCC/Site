@@ -1,29 +1,102 @@
-div.Head{
-    background-color: bisque;
-    font-family: Verdana;
+body{
+    padding: 1% 1% 1% 1%;
 }
 
+.img{
+    width: 160px;
+    height: auto;
+}
 p.body1{
-    font-family: Verdana;
-    text-align: justify;
+    font-family: Montserrat;
+    text-align: left;
 }
 
 .body2{
-    font-family: Verdana;
-    text-align: justify;
+    font-family: Montserrat;
+    text-align: right;
 }
 
 .body3{
-    font-family: Verdana;
-    text-align: justify;
+    font-family: Montserrat;
+    text-align: left;
 }
 
 .body4{
-    font-family: Verdana;
-    text-align: justify;
+    font-family: Montserrat;
+    text-align: right;
 }
 
 .body5{
-    font-family: Verdana;
-    text-align: justify;
+    font-family: Montserrat;
+    text-align: left;
 }
+
+h1 {
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    }
+
+    h2 {
+        font-family: 'Montserrat';
+        font-size: 3rem;
+        line-height: 1.5;
+        font-weight: 700;
+    }
+
+    h3{
+        font-family: 'Montserrat';
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    #title{
+
+        color: black;
+    }
+    .container-fluid{
+        padding: 3% 15% 7%;
+    }
+    
+    .navbar{
+        padding: 0 0 4.5rem;
+    }
+    
+    .navbar-brand{
+        font-family: 'Ubuntu';
+        font-size: 2.5rem;
+        font-weight: 500;
+    }
+    
+    .nav-item{
+        padding: 0 18px;
+    }
+    
+    .nav-link{
+        font-size: 1.2rem;
+        font-family: 'Montserrat';
+        font-weight: 400;
+    }
+    
+
+    @media (max-width: 1028px) {
+    
+        #title{
+            text-align: center;
+        }
+        
+        .img{
+            position: static;
+            transform: rotate(0);
+        }
+    }
+
+    #footer{
+        padding: 7% 15%;
+        text-align: center;
+    }
+    
+    .social-icon{
+        margin: 20px 10px;
+    }
