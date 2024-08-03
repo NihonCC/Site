@@ -1,9 +1,14 @@
 body{
-    padding: 1% 1% 1% 1%;
     background-color: white;
 }
 
+.row{
+    align-items: center;
+}
 
+.title{
+    text-align: right;
+}
 
 .img{
     width: 160px;
@@ -11,27 +16,28 @@ body{
 }
 p.body1{
     font-family: Montserrat;
-    text-align: left;
+    text-align: center;
+    background-color: #FFE9F3;
 }
 
 .body2{
     font-family: Montserrat;
-    text-align: right;
+    text-align: center;
 }
 
 .body3{
     font-family: Montserrat;
-    text-align: left;
+    text-align: center;
 }
 
 .body4{
     font-family: Montserrat;
-    text-align: right;
+    text-align: center;
 }
 
 .body5{
     font-family: Montserrat;
-    text-align: left;
+    text-align: center;
 }
 
 h1 {
@@ -54,9 +60,24 @@ h1 {
         font-weight: 700;
     }
 
-    #title{
+#gallery{
+    background-color: #F4BFDB;
+    align-items: center;
+    text-align: center;
+}
 
-        color: black;
+.gallery-image{
+    width: 75%;
+    height: 50%;
+    text-align: center;
+    position: center;
+    padding: 25px 25px;
+}
+
+    #title{
+        background-color: #B27092;
+        color: white;
+        background-image: url("./images/realistic-set-beautiful-sakura-branches-flowers-petals-illustration.png");
     }
     .container-fluid{
         padding: 3% 15% 7%;
@@ -103,3 +124,8 @@ h1 {
     .social-icon{
         margin: 20px 10px;
     }
+
+    .carousel-item {
+        transition: transform .6s ease-in-out;
+        padding: 7% 15%;
+      }
